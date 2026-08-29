@@ -2,6 +2,9 @@
 
 [中文](#中文) · [English](#english)
 
+[![Android CI](https://github.com/Page67/vocabularybuilder_clean/actions/workflows/android.yml/badge.svg)](https://github.com/Page67/vocabularybuilder_clean/actions/workflows/android.yml)
+[![Release](https://img.shields.io/github/v/release/Page67/vocabularybuilder_clean?display_name=tag)](https://github.com/Page67/vocabularybuilder_clean/releases)
+
 <p align="center">
   <img src="docs/images/overview.png" width="30%" alt="应用概览 / App overview">
   <img src="docs/images/course.png" width="30%" alt="双语课程 / Bilingual course">
@@ -23,6 +26,7 @@ APK 或其他中间文件。仓库自带的单单元数据全部为原创演示�
 - 三句写作练习、Android 系统文字转语音和设备本地学习进度。
 - 数据驱动的目录与单元 JSON，方便替换成你有权使用的内容。
 - 无账号、无分析、无广告、无云同步，且不申请网络权限。
+- 独立安装包 ID `com.page67.vocabularybuilder.clean`，不会覆盖私用版本。
 
 ### 构建
 
@@ -34,6 +38,10 @@ APK 或其他中间文件。仓库自带的单单元数据全部为原创演示�
 ```
 
 macOS 或 Linux 请使用 `./gradlew`。
+
+每次推送后，GitHub Actions 会生成一个可安装的 debug APK 作为临时构建产物。正式版本
+使用独立签名并发布到 [GitHub Releases](https://github.com/Page67/vocabularybuilder_clean/releases)；
+仓库不保存 APK 或签名密钥。维护者发布步骤见 [`docs/RELEASING.md`](docs/RELEASING.md)。
 
 ### 使用自己的内容
 
@@ -65,6 +73,7 @@ quizzes, and one cumulative review quiz, covering the application's main learnin
 - A three-sentence writing workshop, Android system text-to-speech, and device-local progress.
 - A data-driven catalog and unit JSON format that can be replaced with content you may use.
 - No accounts, analytics, advertising, cloud sync, or Internet permission.
+- A separate application ID, `com.page67.vocabularybuilder.clean`, so it cannot replace a private build.
 
 ### Build
 
@@ -77,6 +86,11 @@ The project requires JDK 17 and an Android SDK matching the versions declared in
 ```
 
 Use `./gradlew` on macOS or Linux.
+
+Every push produces an installable debug APK as a temporary GitHub Actions artifact. Officially
+signed builds are distributed through [GitHub Releases](https://github.com/Page67/vocabularybuilder_clean/releases);
+neither APKs nor signing keys are committed. Maintainers can follow
+[`docs/RELEASING.md`](docs/RELEASING.md).
 
 ### Bring your own content
 

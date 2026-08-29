@@ -11,23 +11,48 @@ require(vocabularyContentDir.isDirectory) {
     "Vocabulary content directory does not exist: $vocabularyContentDir"
 }
 
+val releaseStoreFile = System.getenv("ANDROID_SIGNING_STORE_FILE")
+val releaseStorePassword = System.getenv("ANDROID_SIGNING_STORE_PASSWORD")
+val releaseKeyAlias = System.getenv("ANDROID_SIGNING_KEY_ALIAS")
+val releaseKeyPassword = System.getenv("ANDROID_SIGNING_KEY_PASSWORD")
+val releaseSigningReady = listOf(
+    releaseStoreFile,
+    releaseStorePassword,
+    releaseKeyAlias,
+    releaseKeyPassword,
+).all { !it.isNullOrBlank() }
+
 android {
     namespace = "com.shiki.vocabulary"
     compileSdk = 37
     compileSdkMinor = 1
 
     defaultConfig {
-        applicationId = "com.shiki.vocabulary"
+        applicationId = "com.page67.vocabularybuilder.clean"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
+        versionCode = 1
         versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        if (releaseSigningReady) {
+            create("release") {
+                storeFile = file(requireNotNull(releaseStoreFile))
+                storePassword = requireNotNull(releaseStorePassword)
+                keyAlias = requireNotNull(releaseKeyAlias)
+                keyPassword = requireNotNull(releaseKeyPassword)
+            }
+        }
+    }
+
     buildTypes {
         release {
+            if (releaseSigningReady) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
