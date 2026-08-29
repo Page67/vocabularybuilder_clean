@@ -1,0 +1,46 @@
+# Source books and imported material must never enter this public repository.
+*.pdf
+*.epub
+*.mobi
+*.azw3
+data/book/
+content/reviews/
+content/samples/
+content/imported/
+content/staging/
+tools/content_pipeline/build_unit*.py
+
+# Android and Gradle
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing material
+*.jks
+*.keystore
+keystore.properties
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated previews and outputs
+preview/generated/
+output/
+tmp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+

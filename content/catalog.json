@@ -1,0 +1,17 @@
+{
+  "catalog_version": "2026.08.29-clean.1",
+  "book": {
+    "title": {"en": "Clean Vocabulary Demo", "zh": "纯净词汇演示"},
+    "total_units": 1
+  },
+  "units": [
+    {
+      "unit_id": "unit-01",
+      "unit": 1,
+      "title": {"en": "Demo Unit", "zh": "演示单元"},
+      "payload_path": "units/unit-01.json",
+      "content_version": "2026.08.29-demo.1",
+      "approval_status": "approved"
+    }
+  ]
+}

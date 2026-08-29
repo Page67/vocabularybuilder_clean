@@ -1,0 +1,91 @@
+{
+  "unit_id": "unit-01",
+  "unit": 1,
+  "content_version": "2026.08.29-demo.1",
+  "title": {"en": "Demo Unit", "zh": "演示单元"},
+  "roots": [
+    {
+      "id": "u1-light",
+      "label": "LIGHT",
+      "meaning": {"en": "brightness", "zh": "光亮"},
+      "introduction": {
+        "en": "This original demonstration group collects words associated with light.",
+        "zh": "这个原创演示词组收录了与光有关的词。"
+      },
+      "words": [
+        {
+          "id": "u1-light-sunlit",
+          "sequence": 1,
+          "headword": "sunlit",
+          "pronunciation": {"display": "SUN-lit"},
+          "definition": {"en": "Brightened by sunlight.", "zh": "被阳光照亮的。"},
+          "example": {"en": "We read beside a sunlit window.", "zh": "我们在洒满阳光的窗边阅读。"},
+          "note": {"en": "A transparent compound of sun and lit.", "zh": "由 sun 和 lit 构成的直观复合词。"}
+        },
+        {
+          "id": "u1-light-glimmer",
+          "sequence": 2,
+          "headword": "glimmer",
+          "pronunciation": {"display": "GLIM-er"},
+          "definition": {"en": "A faint or unsteady light.", "zh": "微弱或摇曳的光。"},
+          "example": {"en": "A glimmer appeared beyond the trees.", "zh": "树林那边出现了一线微光。"},
+          "note": {"en": "It can also describe a small sign of an idea or hope.", "zh": "它也可以表示想法或希望的一点迹象。"}
+        },
+        {
+          "id": "u1-light-radiant",
+          "sequence": 3,
+          "headword": "radiant",
+          "pronunciation": {"display": "RAY-dee-unt"},
+          "definition": {"en": "Sending out light or showing great happiness.", "zh": "发光的；喜悦洋溢的。"},
+          "example": {"en": "Her radiant smile welcomed the guests.", "zh": "她灿烂的笑容欢迎着客人。"},
+          "note": {"en": "The image is of light spreading outward from a center.", "zh": "这个词让人联想到光从中心向外扩散。"}
+        },
+        {
+          "id": "u1-light-daybreak",
+          "sequence": 4,
+          "headword": "daybreak",
+          "pronunciation": {"display": "DAY-brayk"},
+          "definition": {"en": "The time when daylight first appears.", "zh": "天刚亮的时候；黎明。"},
+          "example": {"en": "The hikers left camp at daybreak.", "zh": "徒步者在黎明时离开营地。"},
+          "note": {"en": "The word pictures daylight breaking through darkness.", "zh": "这个词描绘了日光冲破黑暗的画面。"}
+        }
+      ]
+    }
+  ],
+  "thematic_sections": [],
+  "course_stages": [
+    {
+      "id": "u1-stage-1",
+      "sequence": 1,
+      "title": {"en": "Light", "zh": "光"},
+      "group_ids": ["u1-light"],
+      "quiz_id": "quiz-1-1",
+      "color_index": 0
+    }
+  ],
+  "fixed_quizzes": [
+    {
+      "id": "quiz-1-1",
+      "title": "Demo Quiz",
+      "sections": [
+        {
+          "id": "a",
+          "kind": "closest_definition",
+          "instruction": "Choose the best answer.",
+          "questions": [
+            {
+              "id": "quiz-1-1-a-1",
+              "number": 1,
+              "prompt": "Which word suggests the beginning of a new day?",
+              "answer": "a",
+              "choices": [
+                {"id": "a", "text": "daybreak"},
+                {"id": "b", "text": "midnight"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
