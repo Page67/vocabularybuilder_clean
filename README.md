@@ -14,7 +14,8 @@
 
 本公开仓库不包含任何教材正文、翻译、扫描件、来源映射、提取结果、审核记录、生产
 APK 或其他中间文件。仓库自带的单单元数据全部为原创演示内容，只用于确保克隆后
-项目能够直接运行。
+项目能够直接运行。完整示范单元包含 5 个课程阶段、15 个双语词条、5 个阶段测验和
+1 个综合复习测验，可体验应用的主要学习流程。
 
 ### 功能
 
@@ -54,7 +55,8 @@ An offline-first Android vocabulary-learning shell built with Kotlin and Jetpack
 This public repository contains no textbook text, translation, scan, source map, extraction
 output, review record, production APK, or other intermediate artifact. Its bundled single-unit
 dataset is newly written demonstration content included only to keep the project runnable after
-cloning.
+cloning. The complete demo unit includes five lesson stages, 15 bilingual entries, five stage
+quizzes, and one cumulative review quiz, covering the application's main learning flow.
 
 ### Features
 

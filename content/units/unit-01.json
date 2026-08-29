@@ -1,91 +1,47 @@
 {
-  "unit_id": "unit-01",
-  "unit": 1,
-  "content_version": "2026.08.29-demo.1",
-  "title": {"en": "Demo Unit", "zh": "演示单元"},
+  "unit_id": "unit-01", "unit": 1, "content_version": "2026.08.29-demo.2",
+  "title": {"en": "Everyday Connections", "zh": "日常连接"},
   "roots": [
-    {
-      "id": "u1-light",
-      "label": "LIGHT",
-      "meaning": {"en": "brightness", "zh": "光亮"},
-      "introduction": {
-        "en": "This original demonstration group collects words associated with light.",
-        "zh": "这个原创演示词组收录了与光有关的词。"
-      },
-      "words": [
-        {
-          "id": "u1-light-sunlit",
-          "sequence": 1,
-          "headword": "sunlit",
-          "pronunciation": {"display": "SUN-lit"},
-          "definition": {"en": "Brightened by sunlight.", "zh": "被阳光照亮的。"},
-          "example": {"en": "We read beside a sunlit window.", "zh": "我们在洒满阳光的窗边阅读。"},
-          "note": {"en": "A transparent compound of sun and lit.", "zh": "由 sun 和 lit 构成的直观复合词。"}
-        },
-        {
-          "id": "u1-light-glimmer",
-          "sequence": 2,
-          "headword": "glimmer",
-          "pronunciation": {"display": "GLIM-er"},
-          "definition": {"en": "A faint or unsteady light.", "zh": "微弱或摇曳的光。"},
-          "example": {"en": "A glimmer appeared beyond the trees.", "zh": "树林那边出现了一线微光。"},
-          "note": {"en": "It can also describe a small sign of an idea or hope.", "zh": "它也可以表示想法或希望的一点迹象。"}
-        },
-        {
-          "id": "u1-light-radiant",
-          "sequence": 3,
-          "headword": "radiant",
-          "pronunciation": {"display": "RAY-dee-unt"},
-          "definition": {"en": "Sending out light or showing great happiness.", "zh": "发光的；喜悦洋溢的。"},
-          "example": {"en": "Her radiant smile welcomed the guests.", "zh": "她灿烂的笑容欢迎着客人。"},
-          "note": {"en": "The image is of light spreading outward from a center.", "zh": "这个词让人联想到光从中心向外扩散。"}
-        },
-        {
-          "id": "u1-light-daybreak",
-          "sequence": 4,
-          "headword": "daybreak",
-          "pronunciation": {"display": "DAY-brayk"},
-          "definition": {"en": "The time when daylight first appears.", "zh": "天刚亮的时候；黎明。"},
-          "example": {"en": "The hikers left camp at daybreak.", "zh": "徒步者在黎明时离开营地。"},
-          "note": {"en": "The word pictures daylight breaking through darkness.", "zh": "这个词描绘了日光冲破黑暗的画面。"}
-        }
-      ]
-    }
+    {"id": "u1-light", "label": "LIGHT", "meaning": {"en": "brightness and visibility", "zh": "光亮与可见性"}, "introduction": {"en": "Light changes what we notice and how a place feels.", "zh": "光会改变我们注意到的事物，也会改变一个地方给人的感受。"}, "words": [
+      {"id": "u1-light-sunlit", "sequence": 1, "headword": "sunlit", "pronunciation": {"display": "SUN-lit"}, "definition": {"en": "Brightened by sunlight.", "zh": "被阳光照亮的。"}, "example": {"en": "We read beside a sunlit window.", "zh": "我们在洒满阳光的窗边阅读。"}, "note": {"en": "A transparent compound of sun and lit.", "zh": "由 sun 和 lit 构成的直观复合词。"}},
+      {"id": "u1-light-glimmer", "sequence": 2, "headword": "glimmer", "pronunciation": {"display": "GLIM-er"}, "definition": {"en": "A faint or unsteady light.", "zh": "微弱或摇曳的光。"}, "example": {"en": "A glimmer appeared beyond the trees.", "zh": "树林那边出现了一线微光。"}, "note": {"en": "It can also describe a small sign of an idea or hope.", "zh": "它也可以表示想法或希望的一点迹象。"}},
+      {"id": "u1-light-radiant", "sequence": 3, "headword": "radiant", "pronunciation": {"display": "RAY-dee-unt"}, "definition": {"en": "Sending out light or showing great happiness.", "zh": "发光的；喜悦洋溢的。"}, "example": {"en": "Her radiant smile welcomed the guests.", "zh": "她灿烂的笑容欢迎着客人。"}, "note": {"en": "The image is of light spreading outward from a center.", "zh": "这个词让人联想到光从中心向外扩散。"}}
+    ]},
+    {"id": "u1-motion", "label": "MOTION", "meaning": {"en": "movement and direction", "zh": "移动与方向"}, "introduction": {"en": "Movement words help us describe pace, direction, and control.", "zh": "表示移动的词能帮助我们描述速度、方向与控制。"}, "words": [
+      {"id": "u1-motion-drift", "sequence": 4, "headword": "drift", "pronunciation": {"display": "DRIFT"}, "definition": {"en": "To move slowly without a fixed direction.", "zh": "无固定方向地缓慢移动。"}, "example": {"en": "The empty boat began to drift across the pond.", "zh": "空船开始在池塘上缓缓漂移。"}, "note": {"en": "The word often suggests that no one is steering.", "zh": "这个词通常暗示没有人在掌控方向。"}},
+      {"id": "u1-motion-stride", "sequence": 5, "headword": "stride", "pronunciation": {"display": "STRYD"}, "definition": {"en": "To walk with long, confident steps.", "zh": "迈着自信的大步行走。"}, "example": {"en": "He strode toward the stage when his name was called.", "zh": "听到自己的名字后，他大步走向舞台。"}, "note": {"en": "As a noun, a stride is one long step.", "zh": "作为名词，stride 指迈出的一大步。"}},
+      {"id": "u1-motion-steady", "sequence": 6, "headword": "steady", "pronunciation": {"display": "STED-ee"}, "definition": {"en": "Firm, regular, and unlikely to change suddenly.", "zh": "稳定、规律且不易突然变化的。"}, "example": {"en": "A steady rhythm helped the runners keep pace.", "zh": "稳定的节奏帮助跑者保持速度。"}, "note": {"en": "Steady can describe movement, progress, hands, or emotions.", "zh": "steady 可以描述动作、进展、双手或情绪。"}}
+    ]},
+    {"id": "u1-thought", "label": "THOUGHT", "meaning": {"en": "attention and understanding", "zh": "注意与理解"}, "introduction": {"en": "Clear thinking begins with noticing details and testing ideas.", "zh": "清晰思考始于观察细节并检验想法。"}, "words": [
+      {"id": "u1-thought-observe", "sequence": 7, "headword": "observe", "pronunciation": {"display": "ub-ZURV"}, "definition": {"en": "To watch carefully and notice details.", "zh": "仔细观看并留意细节。"}, "example": {"en": "Observe how the shadow changes during the afternoon.", "zh": "观察影子在下午如何变化。"}, "note": {"en": "Careful observation records what happens before explaining why.", "zh": "细致观察先记录发生了什么，再解释原因。"}},
+      {"id": "u1-thought-infer", "sequence": 8, "headword": "infer", "pronunciation": {"display": "in-FUR"}, "definition": {"en": "To reach a conclusion from available evidence.", "zh": "根据现有证据得出结论。"}, "example": {"en": "From the wet pavement, we inferred that it had rained.", "zh": "从湿漉漉的路面，我们推断刚才下过雨。"}, "note": {"en": "The speaker implies; the listener infers.", "zh": "说话者暗示，听者据此推断。"}},
+      {"id": "u1-thought-revise", "sequence": 9, "headword": "revise", "pronunciation": {"display": "rih-VYZ"}, "definition": {"en": "To examine and improve something by making changes.", "zh": "通过修改来检查并改进某物。"}, "example": {"en": "I revised the explanation after receiving useful feedback.", "zh": "收到有用反馈后，我修改了说明。"}, "note": {"en": "Revision is not merely correction; it can reshape an idea.", "zh": "修订不只是纠错，也可以重新组织一个想法。"}}
+    ]},
+    {"id": "u1-teamwork", "label": "TEAMWORK", "meaning": {"en": "working well with others", "zh": "与他人良好协作"}, "introduction": {"en": "Shared work depends on clear roles, trust, and useful communication.", "zh": "共同完成工作依赖清晰的分工、信任和有效沟通。"}, "words": [
+      {"id": "u1-teamwork-coordinate", "sequence": 10, "headword": "coordinate", "pronunciation": {"display": "koh-OR-duh-nayt"}, "definition": {"en": "To organize people or actions so they work together.", "zh": "组织人员或行动，使其协同运作。"}, "example": {"en": "Mina coordinated the volunteers before the event.", "zh": "活动开始前，米娜协调了志愿者的工作。"}, "note": {"en": "Good coordination connects separate efforts into one plan.", "zh": "良好的协调会把分散的努力连接成一个计划。"}},
+      {"id": "u1-teamwork-contribute", "sequence": 11, "headword": "contribute", "pronunciation": {"display": "kun-TRIB-yoot"}, "definition": {"en": "To give time, ideas, or resources toward a shared result.", "zh": "为共同成果投入时间、想法或资源。"}, "example": {"en": "Each student contributed one idea to the design.", "zh": "每名学生都为设计贡献了一个想法。"}, "note": {"en": "A contribution may be small while still changing the outcome.", "zh": "一份贡献可能很小，却仍能改变结果。"}},
+      {"id": "u1-teamwork-resolve", "sequence": 12, "headword": "resolve", "pronunciation": {"display": "rih-ZOLV"}, "definition": {"en": "To find a workable answer to a problem or disagreement.", "zh": "为问题或分歧找到可行的解决办法。"}, "example": {"en": "The team resolved the scheduling conflict in one meeting.", "zh": "团队在一次会议中解决了日程冲突。"}, "note": {"en": "Resolve can also mean a firm decision to act.", "zh": "resolve 也可以表示采取行动的坚定决心。"}}
+    ]},
+    {"id": "u1-change", "label": "CHANGE", "meaning": {"en": "growth and adjustment", "zh": "成长与调整"}, "introduction": {"en": "Change can be gradual, deliberate, or sparked by a new condition.", "zh": "变化可以是渐进的、有意推动的，也可以由新情况触发。"}, "words": [
+      {"id": "u1-change-adapt", "sequence": 13, "headword": "adapt", "pronunciation": {"display": "uh-DAPT"}, "definition": {"en": "To adjust successfully to new conditions.", "zh": "成功适应新的条件。"}, "example": {"en": "The class adapted quickly to the new schedule.", "zh": "全班很快适应了新的时间安排。"}, "note": {"en": "Adaptation changes the response while keeping the goal in view.", "zh": "适应会调整应对方式，同时不忘原有目标。"}},
+      {"id": "u1-change-evolve", "sequence": 14, "headword": "evolve", "pronunciation": {"display": "ih-VOLV"}, "definition": {"en": "To develop gradually over time.", "zh": "随着时间逐渐发展。"}, "example": {"en": "The rough sketch evolved into a practical design.", "zh": "那张草图逐渐发展成了实用的设计。"}, "note": {"en": "Evolution emphasizes a sequence of connected changes.", "zh": "evolve 强调一系列相互关联的变化。"}},
+      {"id": "u1-change-renew", "sequence": 15, "headword": "renew", "pronunciation": {"display": "rih-NOO"}, "definition": {"en": "To make active, fresh, or effective again.", "zh": "使某物重新活跃、焕新或恢复效力。"}, "example": {"en": "A short walk renewed her concentration.", "zh": "短暂散步让她重新集中注意力。"}, "note": {"en": "The prefix re- carries the idea of again.", "zh": "前缀 re- 带有“再次”的含义。"}}
+    ]}
   ],
   "thematic_sections": [],
   "course_stages": [
-    {
-      "id": "u1-stage-1",
-      "sequence": 1,
-      "title": {"en": "Light", "zh": "光"},
-      "group_ids": ["u1-light"],
-      "quiz_id": "quiz-1-1",
-      "color_index": 0
-    }
+    {"id": "u1-stage-1", "sequence": 1, "title": {"en": "Light", "zh": "光"}, "group_ids": ["u1-light"], "quiz_id": "quiz-1-1", "color_index": 0},
+    {"id": "u1-stage-2", "sequence": 2, "title": {"en": "Motion", "zh": "运动"}, "group_ids": ["u1-motion"], "quiz_id": "quiz-1-2", "color_index": 1},
+    {"id": "u1-stage-3", "sequence": 3, "title": {"en": "Thought", "zh": "思考"}, "group_ids": ["u1-thought"], "quiz_id": "quiz-1-3", "color_index": 2},
+    {"id": "u1-stage-4", "sequence": 4, "title": {"en": "Teamwork", "zh": "协作"}, "group_ids": ["u1-teamwork"], "quiz_id": "quiz-1-4", "color_index": 3},
+    {"id": "u1-stage-5", "sequence": 5, "title": {"en": "Change", "zh": "变化"}, "group_ids": ["u1-change"], "quiz_id": "quiz-1-5", "color_index": 4}
   ],
   "fixed_quizzes": [
-    {
-      "id": "quiz-1-1",
-      "title": "Demo Quiz",
-      "sections": [
-        {
-          "id": "a",
-          "kind": "closest_definition",
-          "instruction": "Choose the best answer.",
-          "questions": [
-            {
-              "id": "quiz-1-1-a-1",
-              "number": 1,
-              "prompt": "Which word suggests the beginning of a new day?",
-              "answer": "a",
-              "choices": [
-                {"id": "a", "text": "daybreak"},
-                {"id": "b", "text": "midnight"}
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    {"id": "quiz-1-1", "title": "Light Quiz", "sections": [{"id": "a", "kind": "closest_definition", "instruction": "Choose the best answer.", "questions": [{"id": "quiz-1-1-a-1", "number": 1, "prompt": "Which word means a faint light?", "answer": "a", "choices": [{"id": "a", "text": "glimmer"}, {"id": "b", "text": "shadow"}]}, {"id": "quiz-1-1-a-2", "number": 2, "prompt": "Which word can describe a joyful smile?", "answer": "b", "choices": [{"id": "a", "text": "steady"}, {"id": "b", "text": "radiant"}]}]}]},
+    {"id": "quiz-1-2", "title": "Motion Quiz", "sections": [{"id": "a", "kind": "fill_in_blank", "instruction": "Complete each sentence.", "questions": [{"id": "quiz-1-2-a-1", "number": 1, "prompt": "Without an anchor, the boat may ___.", "answer": "a", "choices": [{"id": "a", "text": "drift"}, {"id": "b", "text": "infer"}]}, {"id": "quiz-1-2-a-2", "number": 2, "prompt": "A ___ rhythm is regular and dependable.", "answer": "b", "choices": [{"id": "a", "text": "radiant"}, {"id": "b", "text": "steady"}]}]}]},
+    {"id": "quiz-1-3", "title": "Thought Quiz", "sections": [{"id": "a", "kind": "word_to_definition", "instruction": "Match the word to its meaning.", "questions": [{"id": "quiz-1-3-a-1", "number": 1, "prompt": "infer", "answer": "b", "choices": [{"id": "a", "text": "watch without thinking"}, {"id": "b", "text": "reach a conclusion from evidence"}]}, {"id": "quiz-1-3-a-2", "number": 2, "prompt": "revise", "answer": "a", "choices": [{"id": "a", "text": "examine and improve"}, {"id": "b", "text": "move without direction"}]}]}]},
+    {"id": "quiz-1-4", "title": "Teamwork Quiz", "sections": [{"id": "a", "kind": "closest_synonym", "instruction": "Choose the closest meaning.", "questions": [{"id": "quiz-1-4-a-1", "number": 1, "prompt": "coordinate", "answer": "a", "choices": [{"id": "a", "text": "organize together"}, {"id": "b", "text": "work alone"}]}, {"id": "quiz-1-4-a-2", "number": 2, "prompt": "resolve", "answer": "b", "choices": [{"id": "a", "text": "create confusion"}, {"id": "b", "text": "find an answer"}]}]}]},
+    {"id": "quiz-1-5", "title": "Change Quiz", "sections": [{"id": "a", "kind": "complete_analogy", "instruction": "Complete each relationship.", "questions": [{"id": "quiz-1-5-a-1", "number": 1, "prompt": "adapt : new conditions :: revise : ___", "answer": "a", "choices": [{"id": "a", "text": "new feedback"}, {"id": "b", "text": "fixed direction"}]}, {"id": "quiz-1-5-a-2", "number": 2, "prompt": "evolve : gradually :: renew : ___", "answer": "b", "choices": [{"id": "a", "text": "silently"}, {"id": "b", "text": "again"}]}]}]},
+    {"id": "review-quizzes-1", "title": "Unit Review", "sections": [{"id": "a", "kind": "closest_definition", "instruction": "Review the whole unit.", "questions": [{"id": "review-quizzes-1-a-1", "number": 1, "prompt": "Which word means to give effort toward a shared result?", "answer": "a", "choices": [{"id": "a", "text": "contribute"}, {"id": "b", "text": "drift"}]}, {"id": "review-quizzes-1-a-2", "number": 2, "prompt": "Which word means to develop gradually?", "answer": "b", "choices": [{"id": "a", "text": "observe"}, {"id": "b", "text": "evolve"}]}, {"id": "review-quizzes-1-a-3", "number": 3, "prompt": "Which word means to become effective again?", "answer": "a", "choices": [{"id": "a", "text": "renew"}, {"id": "b", "text": "stride"}]}]}]}
   ]
 }
