@@ -167,9 +167,9 @@ fun VocabularyApp(
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Paper),
                 title = {
                     Column {
-                        Text("词根词汇训练", fontWeight = FontWeight.Bold)
+                        Text("词汇学习工具", fontWeight = FontWeight.Bold)
                         Text(
-                            "${content.title.en} · ROOTS & STORIES",
+                            "${content.title.en} · WORDS & STORIES",
                             color = Muted,
                             fontSize = 11.sp,
                             letterSpacing = 1.sp,
@@ -386,7 +386,7 @@ private fun OverviewScreen(
                 ) {
                     Eyebrow("OFFLINE · UNIT ${content.unit}")
                     Text(
-                        "从词根开始，\n把单词连成故事。",
+                        "从主题开始，\n把单词连成故事。",
                         modifier = Modifier.padding(top = 10.dp),
                         color = Ink,
                         fontFamily = FontFamily.Serif,
@@ -395,7 +395,7 @@ private fun OverviewScreen(
                         lineHeight = 41.sp,
                     )
                     Text(
-                        "${content.words.size} 个核心词汇，按 ${content.courseStages.size} 个主题阶段循序学习。先读英文，在需要时展开中文，再用原书测验和本地动态练习巩固。",
+                        "${content.words.size} 个核心词汇，按 ${content.courseStages.size} 个主题阶段循序学习。先读英文，在需要时展开中文，再用固定测验和本地动态练习巩固。",
                         modifier = Modifier.padding(top = 16.dp),
                         color = Muted,
                         lineHeight = 24.sp,
@@ -417,7 +417,7 @@ private fun OverviewScreen(
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     MetricCard(content.words.size.toString(), "双语词条", Modifier.weight(1f))
-                    MetricCard(content.roots.size.toString(), "拉丁词根", Modifier.weight(1f))
+                    MetricCard(content.roots.size.toString(), "词汇主题", Modifier.weight(1f))
                 }
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     MetricCard(questionCount.toString(), "固定测验题", Modifier.weight(1f))
@@ -717,7 +717,7 @@ private fun QuizScreen(
         item {
             Eyebrow("FIXED QUIZZES")
             Text(quiz.title, fontFamily = FontFamily.Serif, fontSize = 36.sp, fontWeight = FontWeight.Bold)
-            Text("保留原书题目。提交后即时显示得分与正确答案。", color = Muted)
+            Text("提交后即时显示得分与正确答案。", color = Muted)
         }
         item {
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
