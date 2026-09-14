@@ -11,9 +11,7 @@
   <img src="docs/images/quiz.png" width="30%" alt="固定测验 / Fixed quiz">
 </p>
 
-<p align="center">
-  <a href="https://www.youtube.com/shorts/K3DmNwqryAc">▶ 观看完整私用版的 18 秒界面演示 / Watch the 18-second full private-build showcase</a>
-</p>
+https://github.com/user-attachments/assets/785e094a-8507-4884-bb19-2eb9e4546e38
 
 > 视频仅用于展示完整私用版的界面与交互。完整 APK、教材内容和中间文件均不在本仓库中。
 >
