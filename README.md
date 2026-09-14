@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Page67/vocabularybuilder_clean/releases/download/v1.0.0/full-apk-showcase-18s.mp4">▶ 观看完整私用版的 18 秒界面演示 / Watch the 18-second full private-build showcase</a>
+  <a href="https://www.youtube.com/shorts/K3DmNwqryAc">▶ 观看完整私用版的 18 秒界面演示 / Watch the 18-second full private-build showcase</a>
 </p>
 
 > 视频仅用于展示完整私用版的界面与交互。完整 APK、教材内容和中间文件均不在本仓库中。
