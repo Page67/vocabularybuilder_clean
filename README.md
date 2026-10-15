@@ -27,13 +27,6 @@ APK 或其他中间文件。仓库自带的单单元数据全部为原创演示�
 项目能够直接运行。完整示范单元包含 5 个课程阶段、15 个双语词条、5 个阶段测验和
 1 个综合复习测验，可体验应用的主要学习流程。
 
-### Vibe Coding 开发方式
-
-本项目采用 **Vibe Coding（氛围编程）**：由用户确定产品目标、内容标准、版权与分发边界
-并作出最终验收决定，AI 编程 Agent 协助实现、测试、审查和记录。它并非无约束的提示词生成，
-而是结合人工复核、明确交付门禁、隔离工作树、确定性验证、串行推广、设备测试和失败即关闭
-审计，使工程过程保持可追溯和可复现。
-
 ### 功能
 
 - 书架、主题课程、按需显示中文、固定测验和本地动态练习。
@@ -79,15 +72,6 @@ output, review record, production APK, or other intermediate artifact. Its bundl
 dataset is newly written demonstration content included only to keep the project runnable after
 cloning. The complete demo unit includes five lesson stages, 15 bilingual entries, five stage
 quizzes, and one cumulative review quiz, covering the application's main learning flow.
-
-### Vibe Coding development approach
-
-This project was developed through **Vibe Coding**: the user set the product intent, content
-standards, copyright and distribution boundaries, and final acceptance decisions, while AI coding
-agents assisted with implementation, testing, inspection, and documentation. This was not
-unconstrained prompt-to-code generation. Human review, explicit delivery gates, isolated worktrees,
-deterministic validation, serialized promotion, device testing, and fail-closed audits kept the
-engineering process traceable and reproducible.
 
 ### Features
 
