@@ -11,7 +11,7 @@
   <img src="docs/images/quiz.png" width="30%" alt="固定测验 / Fixed quiz">
 </p>
 
-https://github.com/user-attachments/assets/785e094a-8507-4884-bb19-2eb9e4546e38
+https://github.com/user-attachments/assets/a20bdd52-f9c4-4334-bac6-eb74b8689a8c
 
 > 视频仅用于展示完整私用版的界面与交互。完整 APK、教材内容和中间文件均不在本仓库中。
 >
